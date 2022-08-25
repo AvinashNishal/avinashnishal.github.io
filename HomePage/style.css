@@ -13,6 +13,14 @@ nav {
     text-decoration: none;
 }
 
-.hi {
-    text-align: center;
+.hey {
+    font-family: 'Poppins';
+    font-size: 8vw;
+    padding-left: 8vw;
+}
+
+.name {
+    font-family: 'Poppins';
+    font-size: 8vw;
+    padding-left: 35vw;
 }

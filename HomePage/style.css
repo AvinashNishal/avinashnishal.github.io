@@ -4,6 +4,12 @@ body{
     background: linear-gradient(to right, #5cdb95 0%, #5cdb95 50%, #05386b 50%, #05386b 100%);
   }
 
+@media screen and (max-width: 768px){
+    .home a, .about-me a, .socials a {
+        font-size: 4vw;
+    }
+}
+
 /* NavBar */
 nav {
     display: flex;

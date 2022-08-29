@@ -18,7 +18,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
 }
-.home a, .about-me a, .socials a{
+.home a, .about-me a, .socials a, .projects a{
     font-family: 'Poppins';
     text-decoration: none;
     color: aliceblue;

@@ -4,12 +4,6 @@ body{
     background: linear-gradient(to right, #5cdb95 0%, #5cdb95 50%, #05386b 50%, #05386b 100%);
   }
 
-@media screen and (max-width: 768px){
-    .home a, .about-me a, .socials a {
-        font-size: 4vw;
-    }
-}
-
 /* NavBar */
 nav {
     display: flex;
@@ -19,13 +13,17 @@ nav {
     flex-wrap: wrap;
     list-style: none;
 }
+
+nav ul {
+    list-style: none;
+}
+
 .home a, .about-me a, .socials a, .projects a{
     font-family: 'Poppins';
     text-decoration: none;
     color: aliceblue;
-    padding-left: 1vw;
+    padding-left: 3vw;
 }
-
 
 .main-text-div {
     background: linear-gradient(to right, #05386b 0%, #05386b 50%, #5cdb95 50%, #5cdb95 100%);

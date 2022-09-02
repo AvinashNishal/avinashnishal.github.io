@@ -7,8 +7,16 @@ nav {
     padding-right: 2vw;
     align-items: center;
     flex-wrap: wrap;
+    list-style: none;
 }
-.home a, .about-me a, .socials a, .projects a {
+
+nav ul {
+    list-style: none;
+}
+
+.home a, .about-me a, .socials a, .projects a{
     font-family: 'Poppins';
     text-decoration: none;
+    color: rgb(30, 136, 229);
+    padding-left: 3vw;
 }

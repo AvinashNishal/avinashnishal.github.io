@@ -17,11 +17,13 @@ nav {
     padding-right: 2vw;
     align-items: center;
     flex-wrap: wrap;
+    list-style: none;
 }
 .home a, .about-me a, .socials a, .projects a{
     font-family: 'Poppins';
     text-decoration: none;
     color: aliceblue;
+    padding-left: 1vw;
 }
 
 
@@ -43,4 +45,10 @@ nav {
 
 .ash {
     color: #05386b;
+}
+
+.main-text:hover {
+    animation: swing;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }

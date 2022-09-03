@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 body{
-    background: linear-gradient(to right, #5cdb95 0%, #5cdb95 50%, #05386b 50%, #05386b 100%);
-  }
+    background-color: #121212;
+}
 
 /* NavBar */
 nav {
@@ -26,7 +25,6 @@ nav ul {
 }
 
 .main-text-div {
-    background: linear-gradient(to right, #05386b 0%, #05386b 50%, #5cdb95 50%, #5cdb95 100%);
     margin-left: 20vw;
     margin-right: 20vw;
 }
@@ -35,18 +33,11 @@ nav ul {
     text-align: center;
     font-size: 12vw;
     font-family: 'Poppins', sans-serif;
+    color: #8A2BE2;
 }
 
-.avi {
-    color: #5cdb95;
-}
-
-.ash {
-    color: #05386b;
-}
-
-.main-text:hover {
-    animation: swing;
+.main-text-div:hover > .main-text {
+    animation: pulse;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }

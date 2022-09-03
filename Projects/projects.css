@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: #121212;
+}
 
 /* NavBar */
 nav {
@@ -17,6 +20,6 @@ nav ul {
 .home a, .about-me a, .socials a, .projects a{
     font-family: 'Poppins';
     text-decoration: none;
-    color: rgb(30, 136, 229);
+    color: aliceblue;
     padding-left: 3vw;
 }
